@@ -13,7 +13,7 @@ Designed by **Stephen William G. De Jesus**, this component showcases a user pro
 
 ## 🌐 Live Demo
 
-> Coming soon via GitHub Pages (after deployment).
+[View Live Demo](https://yourusername.github.io/repo-name/)
 
 ---
 
