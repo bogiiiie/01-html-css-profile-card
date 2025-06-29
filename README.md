@@ -13,7 +13,7 @@ Designed by **Stephen William G. De Jesus**, this component showcases a user pro
 
 ## 🌐 Live Demo
 
-[View Live Demo](https://yourusername.github.io/repo-name/)
+[View Live Demo](https://bogiiiie.github.io/01-html-css-profile-card/)
 
 ---
 
