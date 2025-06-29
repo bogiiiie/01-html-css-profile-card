@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Profile Card using HTML and CSS" />
+    <meta name="keywords" content="HTML, CSS, Profile Card, Web Design" />
+    <meta name="author" content="Stephen William G. De Jesus" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Profile Card</title>
+</head>
+
+<body>
+    <div class="card" role="region" aria-label="Profile card of Stephen William G. De Jesus">
+        <div class="card-header">
+            <div class="header-bg"></div>
+            <img src="images/profile-pic.jpg" alt="Profile photo of Stephen William G. De Jesus" class="profile-pic" />
+        </div>
+
+        <div class="card-body">
+            <div class="personal-info">
+                <h2 id="name">Stephen William G. De Jesus</h2>
+                <p id="position">IT Student</p>
+                <p id="bio">
+                    Passionate about designing and building beautiful, user-friendly, and functional web applications
+                    that combine creativity with seamless performance.
+                </p>
+            </div>
+
+            <div class="stats" aria-label="User statistics">
+                <p><span>127</span> <span>Projects</span></p>
+                <p><span>2.4k</span> <span>Followers</span></p>
+                <p><span>89</span> <span>Following</span></p>
+            </div>
+
+            <ul class="social-links" aria-label="Social media profiles">
+                <li>
+                    <a href="#" aria-label="Facebook profile" class="fb icon">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Twitter profile" class="twitter icon">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="LinkedIn profile" class="linkedin icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Instagram profile" class="insta icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="card-footer">
+                <button type="button" aria-label="Follow Stephen" id="follow-btn">
+                    <span class="material-symbols-outlined">person_add</span>
+                    <span>Follow</span>
+                </button>
+                <button type="button" aria-label="Send a message to Stephen" id="mail-btn">
+                    <span class="material-symbols-outlined">mail</span>
+                    <span>Message</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
